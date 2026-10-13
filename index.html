@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kaung — software engineer building reliable products with clean architecture and thoughtful interfaces."
+    />
+    <title>Kaung — Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Sora:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#work">Skip to work</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="#top">KAUNG</a>
+
+        <input id="nav-toggle" class="nav-toggle" type="checkbox" />
+        <label class="nav-toggle-label" for="nav-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">Software engineer · Yangon</p>
+        <h1>
+          I design systems that stay
+          <em>quiet</em> under pressure.
+        </h1>
+        <p class="hero-lede">
+          Full-stack engineer focused on reliable APIs, clear interfaces, and
+          products people actually want to use.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">View selected work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <dl class="hero-stats">
+          <div>
+            <dt>Years shipping</dt>
+            <dd>5+</dd>
+          </div>
+          <div>
+            <dt>Products launched</dt>
+            <dd>12</dd>
+          </div>
+          <div>
+            <dt>Focus</dt>
+            <dd>Web · APIs</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-heading">
+          <p class="index">01</p>
+          <h2>About</h2>
+        </div>
+        <div class="about-grid">
+          <p class="about-lead">
+            I like the unglamorous parts of engineering: naming things well,
+            shrinking failure modes, and making tomorrow’s change cheaper than
+            today’s shortcut.
+          </p>
+          <div class="about-copy">
+            <p>
+              I work across the stack — TypeScript, React, and Node on the
+              product side; SQL, REST, and careful domain modeling where the
+              data lives. I care about readability as much as speed.
+            </p>
+            <p>
+              Outside of shipping, I tinker with UI motion, write small tools
+              for my own workflow, and keep a running list of architectures that
+              aged well.
+            </p>
+          </div>
+        </div>
+
+        <ul class="skill-cloud" aria-label="Skills">
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Next.js</li>
+          <li>PostgreSQL</li>
+          <li>REST &amp; GraphQL</li>
+          <li>Docker</li>
+          <li>Git</li>
+          <li>CSS architecture</li>
+          <li>System design</li>
+        </ul>
+      </section>
+
+      <section id="work" class="section work">
+        <div class="section-heading">
+          <p class="index">02</p>
+          <h2>Selected work</h2>
+        </div>
+
+        <article class="project featured">
+          <p class="project-meta">01 · Product platform</p>
+          <h3>Atlas Ops</h3>
+          <p>
+            An operations dashboard that replaced a tangle of spreadsheets with
+            live inventory, role-based views, and audit-friendly history.
+          </p>
+          <ul class="tags">
+            <li>React</li>
+            <li>Node</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </article>
+
+        <div class="project-grid">
+          <article class="project">
+            <p class="project-meta">02 · Developer tool</p>
+            <h3>Traceboard</h3>
+            <p>
+              Lightweight request tracing for internal APIs — latency heatmaps,
+              error grouping, and one-click replay of failing payloads.
+            </p>
+            <ul class="tags">
+              <li>TypeScript</li>
+              <li>Express</li>
+              <li>Redis</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <p class="project-meta">03 · Consumer web</p>
+            <h3>Harbor Notes</h3>
+            <p>
+              A calm writing app with offline-first sync, keyboard-first
+              navigation, and markdown that stays out of the way.
+            </p>
+            <ul class="tags">
+              <li>Next.js</li>
+              <li>IndexedDB</li>
+              <li>CSS</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <p class="project-meta">04 · Data</p>
+            <h3>Ledgerline</h3>
+            <p>
+              Invoicing and cash-flow views for a small studio: scheduled
+              reminders, PDF export, and a ledger that accountants can trust.
+            </p>
+            <ul class="tags">
+              <li>React</li>
+              <li>REST</li>
+              <li>Postgres</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience">
+        <div class="section-heading">
+          <p class="index">03</p>
+          <h2>Experience</h2>
+        </div>
+
+        <ol class="timeline">
+          <li>
+            <p class="when">2023 — Present</p>
+            <h3>Software Engineer</h3>
+            <p class="where">Independent / product teams</p>
+            <p>
+              Own features end to end: schema, API, UI, and the boring
+              production details that keep them honest.
+            </p>
+          </li>
+          <li>
+            <p class="when">2021 — 2023</p>
+            <h3>Full-stack Developer</h3>
+            <p class="where">Product studio</p>
+            <p>
+              Shipped client web apps on tight timelines, with a bias toward
+              reusable components and documented APIs.
+            </p>
+          </li>
+          <li>
+            <p class="when">2019 — 2021</p>
+            <h3>Junior Developer</h3>
+            <p class="where">Engineering team</p>
+            <p>
+              Learned the craft in production: debugging, code review, and
+              turning vague tickets into small, reviewable diffs.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-heading">
+          <p class="index">04</p>
+          <h2>Let’s work</h2>
+        </div>
+        <p class="contact-lead">
+          Open to product roles, contract work, and collaborations that need a
+          careful engineer.
+        </p>
+        <a class="email" href="mailto:kaung@example.com">kaung@example.com</a>
+        <div class="socials">
+          <a href="https://github.com/" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" rel="noopener noreferrer">LinkedIn</a>
+          <a href="#top">Resume</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Kaung. Built with HTML &amp; CSS.</p>
+      <p class="footer-note">Yangon · Available worldwide</p>
+    </footer>
+  </body>
+</html>
